@@ -42,7 +42,7 @@ console.log("9. Somma:", somma(4, 6));
 
 // OGGETTI SEMPLICI
 let persona = {
-  nome: "Luca",
+  nome: "Gianluca",
   eta: 25,
   citta: "Napoli"
 };
@@ -50,8 +50,8 @@ console.log("10. Città:", persona.citta);
 
 // OGGETTI CON METODI
 let utente = {
-  nome: "Mario",
-  cognome: "Rossi",
+  nome: "Gianluca",
+  cognome: "Marcone",
   presentati: function () {
     return "Ciao, sono " + this.nome + " " + this.cognome;
   }
@@ -66,4 +66,4 @@ let prodotti = [
 ];
 console.log("12. Prezzo del secondo prodotto:", prodotti[1].prezzo);
 
-Add JavaScript practice file
+
